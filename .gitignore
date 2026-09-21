@@ -1,0 +1,80 @@
+# 编译产物
+*.exe
+*.out
+*.app
+a.out
+main
+
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.pdb
+*.ilk
+*.exp
+*.idb
+
+*.dSYM/
+*.sym
+
+# 构建目
+build/
+Build/
+out/
+bin/
+obj/
+dist/
+Debug/
+Release/
+x64/
+x86/
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+!.vscode/c_cpp_properties.json
+
+# Windows 系统文件
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.stackdump
+
+# 编译中间文件 / 依赖
+*.d
+*.dep
+*.gch
+*.pch
+
+# 11. 日志 / 临时文件
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+
+# 压缩包
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+#  显式保留
+!README.md
+!.gitignore
+!LICENSE
